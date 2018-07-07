@@ -1,4 +1,25 @@
 
 <!DOCTYPE html>
-
-</html>
+    <html>
+        <head>
+          <title> {{page.title}} </title>
+          <!--link to a main stylesheet -->
+          <link rel="stylesheet" type="textx/css" href="/css/main.css" >
+      </head>
+      <body>
+          <nav>
+          <ul>
+            <li> <a href="/"> Home </a></li>
+            <li> <a href="/about"> About </a></li>
+            <li> <a href="/phys">Physics </a></li>
+            <li> <a href="/compsci"> Comp Sci </a></li>
+           </ul>  
+           </nav>
+           <div class="container">
+             {{ content }}
+           </div>  <!-- /.container -->
+           <footer>
+             <ul>
+               <li> < a href="https://www.github.com/"> github </a></li>
+             </ul>  
+    </html>
